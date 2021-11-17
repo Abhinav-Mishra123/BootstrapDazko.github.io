@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gym website</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <link
@@ -105,7 +107,8 @@
       </div>
 
 
-      <section class="about my-lg-5" id="about">
+      <section class="about my-lg-5 data-aos="fade-up"
+     data-aos-duration="1000">" id="about">
           <div class="container">
               <div class="row py-4">
                   <div class="col-sm-12 col-md-6 col-lg-6 col-12 order-2">
@@ -385,7 +388,10 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
